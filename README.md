@@ -26,8 +26,3 @@ You can also inspect the `<img id="subject">` element in browser developer tools
 The project uses static output and Astro's default image service, with no adapters or integrations.
 The PNG was generated specifically for this reproduction.
 The `site` and `base` settings support the GitHub Pages project URL. The deployment uses the [official Astro GitHub Pages action](https://docs.astro.build/en/guides/deploy/github/).
-
-## StackBlitz environment
-
-On 2026-10-23, the official [Astro empty reproduction template](https://astro.new/repro) installed Astro 7.4.2 but could not start because its WebContainer used Node.js 22.22.3. Astro 7.4.2 requires Node.js >=22.23.4.
-This runtime mismatch occurs before adding the reproduction code.
