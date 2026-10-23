@@ -16,7 +16,7 @@ pnpm build
 pnpm preview
 ```
 
-Open http://127.0.0.1:4328/astro-image-densities-repro/ in a browser.
+Open the URL shown by `pnpm preview` in your browser.
 The “Actual srcset from the image” section reads the rendered image's `srcset` property; its output is not hardcoded.
 You can also inspect the `<img id="subject">` element in browser developer tools or read `dist/index.html`.
 
