@@ -1,4 +1,4 @@
-# Astro 7.4.2: duplicate Image density descriptors
+# Density reproduction
 
 One `<Image>` uses `densities={[1, '1x', 2]}` with a generated 1200 × 840 PNG, rendered at 400 × 280.
 
