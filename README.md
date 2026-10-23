@@ -4,7 +4,7 @@ One `<Image>` uses `densities={[1, '1x', 2]}` with a generated 1200 × 840 PNG, 
 
 [View the reproduction on GitHub Pages](https://yusaku01.github.io/astro-image-densities-repro/).
 
-## Reproduce
+## Reproduction of duplicate densities
 
 Use Node.js **22.23.4 or newer** and pnpm 12.4.2.
 
