@@ -12,10 +12,25 @@ import fixture from '../assets/fixture.png';
   <body>
     <main>
       <h1>Astro 7.4.2 image density reproduction</h1>
-      <p><code>{'densities={[1, "1x", 2]}'}</code></p>
-      <p>Expected srcset descriptors: <code>1x, 2x</code>.</p>
-      <Image id="subject" src={fixture} width={400} height={280}
-        densities={[1, '1x', 2]} format="webp" loading="eager" alt="Generated gradient and checkerboard fixture" />
+
+      <p>
+        <code>{'densities={[1, "1x", 2]}'}</code>
+      </p>
+      <p>
+        Expected srcset descriptors: <code>1x, 2x</code>.
+      </p>
+
+      <Image
+        id="subject"
+        src={fixture}
+        width={400}
+        height={280}
+        densities={[1, '1x', 2]}
+        format="webp"
+        loading="eager"
+        alt="Generated gradient and checkerboard fixture"
+      />
+
       <h2>Actual srcset from the image</h2>
       <pre id="actual-srcset"></pre>
     </main>
