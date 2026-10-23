@@ -18,7 +18,6 @@ pnpm preview
 
 Open the URL shown by `pnpm preview` in your browser.
 The “Actual srcset from the image” section reads the rendered image's `srcset` property; its output is not hardcoded.
-You can also inspect the `<img id="subject">` element in browser developer tools or read `dist/index.html`.
 
 - Expected: one `1x` candidate and one `2x` candidate.
 - Actual in Astro 7.4.2: `1x, 1x, 2x`; the first two candidates have identical URLs.
