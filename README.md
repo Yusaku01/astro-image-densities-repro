@@ -22,6 +22,7 @@ The “Actual srcset from the image” section reads the rendered image's `srcse
 - Expected: one `1x` candidate and one `2x` candidate.
 - Actual in Astro 7.4.2: `1x, 1x, 2x`; the first two candidates have identical URLs.
 
-The project uses static output and Astro's default image service, with no adapters or integrations.
-The PNG was generated specifically for this reproduction.
-The `site` and `base` settings support the GitHub Pages project URL. The deployment uses the [official Astro GitHub Pages action](https://docs.astro.build/en/guides/deploy/github/).
+- The project uses static output and Astro's default image service, with no adapters or integrations.
+- The PNG was generated specifically for this reproduction.
+- The `site` and `base` settings support the GitHub Pages project URL.
+- The deployment uses the [official Astro GitHub Pages action](https://docs.astro.build/en/guides/deploy/github/).
